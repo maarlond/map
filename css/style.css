@@ -1,0 +1,14 @@
+#mapa svg path {
+    stroke:#200772; /*cor da borda do estado*/
+    fill:#4671D5; /*cor do estado*/
+    cursor:pointer;
+}
+
+#mapa svg path:hover {
+    fill:#be2f33;
+    stroke:#be2f33;
+}
+#mapa svg text {
+    fill:#fff;
+    font-size: 10px;
+}
