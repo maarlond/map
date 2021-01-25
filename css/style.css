@@ -1,14 +1,70 @@
-#mapa svg path {
-    stroke:#200772; /*cor da borda do estado*/
-    fill:#4671D5; /*cor do estado*/
+
+.mapa svg #escolinha polygon:hover {
+    stroke:#200772;
+    fill:#bbadad;
     cursor:pointer;
 }
 
+.mapa svg #alasul polygon:hover{
+    stroke:#200772;
+    fill:#516aa0;
+    cursor:pointer;
+}
+
+.mapa svg #alanorte polygon:hover{
+    stroke:#0c73c7;
+    fill:#1499c2;
+    cursor:pointer;
+}
+
+.mapa svg #manutencao polygon:hover{
+    stroke:#0c73c7;
+    fill:#1499c2;
+    cursor:pointer;
+}
+
+.mapa svg #manutencao rect:hover{
+    stroke:#0c73c7;
+    fill:#1499c2;
+    cursor:pointer;
+}
+
+.mapa svg #caff polygon:hover{
+    stroke:#0c73c7;
+    fill:#b96085;
+    cursor:pointer;
+}
+
+.mapa svg #rampa polygon:hover{
+    stroke:#0c73c7;
+    fill:#65c85c;
+    cursor:pointer;
+}
+
+.mapa svg #defesacivil path:hover{
+    stroke:#0c73c7;
+    fill:#484777;
+    cursor:pointer;
+}
+.mapa svg #secretariaeducacao polygon:hover{
+    stroke:#0c73c7;
+    fill:#484777;
+    cursor:pointer;
+}
+
+.mapa svg #orquestra polygon:hover{
+    stroke:#0c73c7;
+    fill:#6daeb1;
+    cursor:pointer;
+}
+
+
+/*
 #mapa svg path:hover {
     fill:#be2f33;
     stroke:#be2f33;
 }
-#mapa svg text {
+/*#mapa svg text {
     fill:#fff;
     font-size: 10px;
 }
