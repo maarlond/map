@@ -1,7 +1,14 @@
+.mapa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
 .mapa svg #escolinha polygon:hover {
-    stroke:#200772;
-    fill:#bbadad;
+    stroke:#3e00f6;
+    fill:#00aeff;
     cursor:pointer;
 }
 
@@ -43,12 +50,12 @@
 
 .mapa svg #defesacivil path:hover{
     stroke:#0c73c7;
-    fill:#484777;
+    fill:#b958bd;
     cursor:pointer;
 }
 .mapa svg #secretariaeducacao polygon:hover{
     stroke:#0c73c7;
-    fill:#484777;
+    fill:#8886df;
     cursor:pointer;
 }
 
