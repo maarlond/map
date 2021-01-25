@@ -2187,10 +2187,11 @@
   </div>
 
   <script>
+     /*
     $(".mapa polygon").find('.manutencao *, .alasul *').click(function() {
       alert('Voce clicou na: ' + $(this).attr('data-name'));
     });
-    /*
+    */
     $(".mapa polygon").click(function() {
       alert('Voce clicou na: ' + $(this).attr('data-name'));
     });
