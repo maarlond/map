@@ -1,66 +1,9 @@
-.modal-container {
-    width: 100vw;
-    height: 100vh;
-    background:rgba(0, 0, 0, .5);
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 2000;
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-container.mostrar {
-    display: flex;
-}
-
-.modal {
-    background: white ;
-    width: 60%;
-    min-width: 300px;
-    padding: 40px;
-    border: 10px solid #848688;
-    box-shadow: 0 0 0 10px white;
-    position: absolute;
-}
-
-@keyframes modal {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    } to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-.mostrar .modal {
-    animation: modal .3s;
-}
-
-.fechar {
-    position: absolute;
-    font-size: 1.2em;
-    top: -30px;
-    right: -30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 4px solid white;
-    background: #848688 ;
-    color: white;
-    font-family: "Gotham Medium", monospace;
-    cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3) ;
-}
-
-.mapa {
+/*.mapa {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+    background: linear-gradient(to left top, #e2d73e, #d31a13, #179017);
+}   */
 
 .mapa svg #escolinha polygon:hover {
     stroke:#3e00f6;
@@ -88,7 +31,7 @@
 
 .mapa svg #manutencao rect:hover{
     stroke:#0c73c7;
-    fill:#1499c2;
+    fill:#45a15c;
     cursor:pointer;
 }
 
@@ -106,28 +49,77 @@
 
 .mapa svg #defesacivil path:hover{
     stroke:#0c73c7;
-    fill:#b958bd;
+    fill:#62cccf;
     cursor:pointer;
 }
 .mapa svg #secretariaeducacao polygon:hover{
     stroke:#0c73c7;
-    fill:#8886df;
+    fill:#bebdec;
     cursor:pointer;
 }
 
 .mapa svg #orquestra polygon:hover{
     stroke:#0c73c7;
-    fill:#6daeb1;
+    fill:#d18d8d;
     cursor:pointer;
 }
 
-
-/*
-#mapa svg path:hover {
-    fill:#be2f33;
-    stroke:#be2f33;
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
-/*#mapa svg text {
-    fill:#fff;
-    font-size: 10px;
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    background: #E6E7E8;
+    width: 20%;
+    min-width: 300px;
+    padding: 40px;
+    border-radius: 5%;
+    box-shadow: 0 0 0 10px #dbdd86;
+    position: absolute;
+}
+.modal h3, h4, p{
+    text-align: center;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    } to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .50s;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background: #dbdd86 ;
+    color: white;
+    font-family: "Gotham Medium", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3) ;
 }
