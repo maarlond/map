@@ -12,7 +12,7 @@
 
 <body>
   <div class="mapa">
-    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 29700 21000" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 29700 21000" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
       <defs>
         <font id="FontID6" horiz-adv-x="795" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
           <font-face font-family="Gotham Black">
@@ -780,6 +780,10 @@
             font-family: 'Gotham Medium'
           }
 
+          .mapa svg{
+            width: 60%;
+          }
+
           .mapa {
             display: flex;
             justify-content: center;
@@ -1368,7 +1372,6 @@
           <path class="fil7" d="M20212.07 15170.87l-1054.32 0 0 -53.28 1054.32 0 26.62 26.64 -26.62 26.64zm26.62 -26.64l0 26.64 -26.62 0 26.62 -26.64zm0 -1794.65l0 1794.65 -53.24 0 0 -1794.65 26.62 -26.64 26.62 26.64zm-53.24 0l0 -26.64 26.62 0 -26.62 26.64zm514.97 26.64l-488.35 0 0 -53.28 488.35 0 26.62 26.64 -26.62 26.64zm0 -53.28l26.62 0 0 26.64 -26.62 -26.64zm-26.62 2412.29l0 -2385.65 53.24 0 0 2385.65 -26.62 26.64 -26.62 -26.64zm53.24 0l0 26.64 -26.62 0 26.62 -26.64zm-426.37 -26.64l399.75 0 0 53.28 -399.75 0 0 0 0 -53.28zm-88.6 0l88.6 0 0 53.28 -88.6 0 0 0 0 -53.28zm-1054.32 0l1054.32 0 0 53.28 -1054.32 0 -26.62 -26.64 26.62 -26.64zm0 53.28l-26.62 0 0 -26.64 26.62 26.64zm26.62 -617.64l0 591 -53.24 0 0 -591 26.62 -26.64 26.62 26.64zm-53.24 0l0 -26.64 26.62 0 -26.62 26.64z" />
           <line class="fil1 str36" x1="6168" y1="10919.1" x2="6463.29" y2="10920.37" />
 
-          //manutencao
           <g id="manutencao" data-name="Manutenção">
             <polygon id="1" class="fil8" points="19157.75,15144.23 20212.07,15144.23 20212.07,13349.58 20700.42,13349.58 20700.42,15735.23 20300.67,15735.23 20212.07,15735.23 19157.75,15735.23 " />
           </g>
@@ -1967,7 +1970,7 @@
           <path class="fil3 str29" d="M8156.25 10499.65l822.27 0c499.63,34.22 490.36,513.73 480.8,1004.4 -12.54,643.35 -25.37,1302.23 827.09,1329.53l3.41 -108.86 0 2100.7 -2133.57 0 0 -4325.77z" /> //
           <g id="defesacivil" data-name="Defesa civil do RS">
             <path class="fil2" d="M8156.25 10499.65l822.27 0c499.63,34.22 490.36,513.73 480.8,1004.4 -12.54,643.35 -25.37,1302.23 827.09,1329.53l3.41 -108.86 0 2100.7 -2133.57 0 0 -4325.77z" /> //
-          </g>//defesa civil
+          </g>
 
           <g>
             <path class="fil9" d="M10289.82 15267.84l-2132.11 0 0 -52.92 2132.11 0 26.48 26.46 -26.48 26.46zm0 -52.92c14.62,0 26.48,11.85 26.48,26.46 0,14.61 -11.86,26.46 -26.48,26.46l0 -52.92zm-26.48 1456.46l0 -1430 52.96 0 0 1430 -26.48 26.46 -26.48 -26.46zm52.96 0c0,14.61 -11.86,26.46 -26.48,26.46 -14.62,0 -26.48,-11.85 -26.48,-26.46l52.96 0zm-2158.59 -26.46l2132.11 0 0 52.92 -2132.11 0 -26.48 -26.46 26.48 -26.46zm0 52.92c-14.62,0 -26.48,-11.85 -26.48,-26.46 0,-14.61 11.86,-26.46 26.48,-26.46l0 52.92zm26.48 -1456.46l0 1430 -52.96 0 0 -1430 26.48 -26.46 26.48 26.46zm-52.96 0c0,-14.61 11.86,-26.46 26.48,-26.46 14.62,0 26.48,11.85 26.48,26.46l-52.96 0z" />
@@ -2265,8 +2268,7 @@
 
             <rect class="fil12" x="8880" y="7490" width="119.39" height="1900" />
             <path class="fil12" d="M9080 9310.87l1124.25 0 0 97.46 -1324.25 0 0 -97.46zm1450.03 0l1806.08 0 0 97.46 -2106.08 0 0 -97.46z" />
-
-
+            
             <line class="fil1 str5" x1="9100" y1="9400" x2="9100" y2="9000" />
             <line class="fil1 str5" x1="9250" y1="9400" x2="9250" y2="9000" />
             <line class="fil1 str5" x1="9400" y1="9400" x2="9400" y2="9000" />
@@ -2318,10 +2320,6 @@
             <line class="fil1 str5" x1="10900" y1="8250" x2="10900" y2="8600" />
 
             <line class="fil1 str5" x1="9400" y1="8600" x2="10900" y2="8600" />
-
-
-
-
 
             <!--
             <rect class="fil12" x="9300" y="7500" width="119.39" height="1800" />
@@ -2387,7 +2385,7 @@
           <path class="fil24" d="M13516.4 7214.43l-1324.92 0 0 -205.16 1324.92 0 103.62 102.58 -103.62 102.58zm0 -205.16l103.62 0 0 102.58 -103.62 -102.58zm-103.62 1232.05l0 -1129.47 207.24 0 0 1129.47 -103.62 102.58 -103.62 -102.58zm207.24 0l0 102.58 -103.62 0 103.62 -102.58zm-1428.54 -102.58l1324.92 0 0 205.16 -1324.92 0 -103.62 -102.58 103.62 -102.58zm0 205.16l-103.62 0 0 -102.58 103.62 102.58zm103.62 -1232.05l0 1129.47 -207.24 0 0 -1129.47 103.62 -102.58 103.62 102.58zm-207.24 0l0 -102.58 103.62 0 -103.62 102.58z" />
           <g id="prediocaff" data-name="Prédio CAFF">
             <polygon id="1" class="fil15" points="12191.48,7111.85 13516.4,7111.85 13516.4,8241.32 12191.48,8241.32 " />
-          </g>//caff
+          </g>
           <!--
         <g>
           <polygon class="fil3 str64" points="19157.75,15854.71 19998.93,15854.71 19998.93,17175.57 19157.75,17175.57 " />
@@ -2398,38 +2396,44 @@
         -->
           <!--<text x="12762.19" y="8769.38" class="fnt2">ALA SUL</text>
           <text x="12242.84" y="6700.86" class="fnt2">ALA NORTE</text>-->
-          <text x="15200" y="8600" class="fnt4">ALA SUL</text>
-          <text x="9600" y="6900" class="fnt4">ALA NORTE</text>
+
+          <text id="alasultext" x="15200" y="8600" class="fnt4">ALA SUL</text>
+
+          <text id="alanortetext" x="9600" y="6900" class="fnt4">ALA NORTE</text>
 
           <g id="est1vistext">
-            <text x="19430.92" y="8325.23" class="fil25 fnt3">ESTACIONAMENTO 1:</text>
-            <text x="19730.92" y="8492.68" class="fil25 fnt3">VISITANTES</text>
+            <text x="19100" y="8350" class="fil25 fnt4">ESTACIONAMENTO 1:</text>
+            <text x="19600" y="8600" class="fil25 fnt4">VISITANTES</text>
           </g>
-          <g id="est2funccad">
-            <text x="6900" y="3080.23" class="fil25 fnt3">ESTACIONAMENTO 2:</text>
-            <text x="6570.92" y="3240.68" class="fil25 fnt3">FUNCIONÁRIOS CADASTRADOS</text>
+          <g id="est2functext">
+            <text x="6650" y="3000" class="fil25 fnt4">ESTACIONAMENTO 2:</text>
+            <text x="6200" y="3250" class="fil25 fnt4">FUNCIONÁRIOS CADASTRADOS</text>
           </g>
 
         </g>
-        <g id="est3funccad">
-          <text x="5000.92" y="13000.23" class="fil25 fnt3">ESTACIONAMENTO 3:</text>
-          <text x="4570.92" y="13167.68" class="fil25 fnt3">FUNCIONÁRIOS CADASTRADOS</text>
+        <g id="est3functext">
+          <text x="4700" y="12800" class="fil25 fnt4">ESTACIONAMENTO 3:</text>
+          <text x="4300" y="13050" class="fil25 fnt4">FUNCIONÁRIOS CADASTRADOS</text>
         </g>
 
-        <g>
-          <text x="9400" y="8400" class="fil25 fnt3">ESTACIONAMENTO 4:</text>
-          <text x="9800" y="8600" class="fil25 fnt3">OFICIAIS</text>
+        <g id="est4ofictext">
+          <text x="9150" y="8400" class="fil25 fnt4">ESTACIONAMENTO 4:</text>
+          <text x="9800" y="8650" class="fil25 fnt4">OFICIAIS</text>
         </g>
 
       </g>
-      <g id="est6funccad">
-        <text x="17000.92" y="16500.23" class="fil25 fnt3">ESTACIONAMENTO 6:</text>
-        <text x="16650.92" y="16667.68" class="fil25 fnt3">FUNCIONÁRIOS CADASTRADOS</text>
+      <g id="est6functext">
+        <text x="16800" y="16300" class="fil25 fnt4">ESTACIONAMENTO 6:</text>
+        <text x="17000" y="16550" class="fil25 fnt4">FUNCIONÁRIOS</text>
+        <text x="17050" y="16800" class="fil25 fnt4">CADASTRADOS</text>
       </g>
 
-      <text x="23610.51" y="10000.02" class="fil26 fnt3">ESCOLA</text>
-      <text x="24288.73" y="10000.02" class="fil26 fnt3"> DO CAFF</text>
-      <g transform="matrix(2.64845E-14 -1 1 2.64845E-14 10041.3 29886.4)">
+      <g id="escolacafftext">
+        <text x="23450" y="10000" class="fil26 fnt4">ESCOLA</text>
+        <text x="24320" y="10000" class="fil26 fnt4">DO CAFF</text>
+      </g>
+
+      <g id="manutencaotext" transform="matrix(2.64845E-14 -1 1 2.64845E-14 10041.3 29886.4)">
         <text x="14850" y="10500" class="fil27 fnt4">MANUTENÇÃO</text>
       </g>
 
@@ -2463,30 +2467,41 @@
         -->
 
       <g>
-        <text x="12500" y="10200" class="fnt4">SUBSOLO</text>
-        <text x="10400" y="10450" class="fnt3">< ESTACIONAMENTO 5</text>
-            <text x="10900" y="10650" class="fnt3"> OFICIAIS</text>
-            <text x="13700" y="10450" class="fnt3"> ESTACIONAMENTO 7 > </text>
-            <text x="14000" y="10650" class="fnt3">FUNCIONÁRIOS</text>
-            <text x="14000" y="10850" class="fnt3">CADASTRADOS</text>
-
+        <text x="12450" y="10200" class="fnt4">SUBSOLO</text>
+        <g id="est5ofictext">
+          <text x="10400" y="10400" class="fnt3">ESTACIONAMENTO 5</text>
+          <text x="10700" y="10600" class="fnt3"> OFICIAIS</text>
+        </g>
+        <g id="est7functext">
+          <text x="13850" y="10400" class="fnt3">ESTACIONAMENTO 7</text>
+          <text x="14050" y="10600" class="fnt3">FUNCIONÁRIOS</text>
+          <text x="14070" y="10800" class="fnt3">CADASTRADOS</text>
+        </g>
       </g>
 
       <g id="sectext">
-        <text x="11201.64" y="11750.52" class="fnt6">SECRETARIA DA EDUCAÇÃO</text>
-        <text x="12501.64" y="12016.97" class="fnt6">SEDUC</text>
+        <text x="11200" y="11750" class="fnt6">SECRETARIA DA EDUCAÇÃO</text>
+        <text x="12500" y="12000" class="fnt6">SEDUC</text>
       </g>
-      <text x="8258.95" y="11294.32" class="fil15 fnt2">DEFESA CIVIL</text>
-      <text x="8318.95" y="11461.77" class="fil15 fnt2">DO RS</text>
-      <g id="rampa" transform="matrix(2.64845E-14 -1 1 2.64845E-14 1079.58 23905.6)">
+
+      <g id="defesaciviltext">
+        <text x="8258.95" y="11294.32" class="fil15 fnt2">DEFESA CIVIL</text>
+        <text x="8318.95" y="11461.77" class="fil15 fnt2">DO RS</text>
+      </g>
+
+      <g id="rampatext" transform="matrix(2.64845E-14 -1 1 2.64845E-14 1079.58 23905.6)">
         <text x="14700" y="10510" class="fil15 fnt7">RAMPA DE DESCARGA</text>
       </g>
-      <text x="11317.47" y="16250.55" class="fnt6">ORQUESTRA SINFÔNICA </text>
-      <text x="11717.47" y="16500.55" class="fnt6">DE PORTO ALEGRE</text>
-      <text x="12617.47" y="16750.55" class="fnt6">OSPA</text>
+
+      <g id="orquestratext">
+        <text x="11320" y="16250" class="fnt6">ORQUESTRA SINFÔNICA </text>
+        <text x="11720" y="16500" class="fnt6">DE PORTO ALEGRE</text>
+        <text x="12620" y="16750" class="fnt6">OSPA</text>
+      </g>
+
       <line class="fil3 str66" x1="8876.22" y1="11414.84" x2="9120.3" y2="11414.84" />
       <polyline class="fil3 str66" points="9057.17,11360.83 9120.3,11414.84 9057.17,11468.84 " />
-      <text x="12399.36" y="7789.15" class="fil29 fnt9">CAFF</text>
+      <text id="prediocafftext" x="12399.36" y="7789.15" class="fil29 fnt9">CAFF</text>
 
       <!--
           <rect class="fil12" x="17239.86" y="13961.55" width="119.39" height="4912.27" />
@@ -2590,13 +2605,26 @@
     </div>
   </div>
 
-  <div id="modal-oficiais1" class="modal-container">
+  <div id="modal-est4oficiais" class="modal-container">
     <div class="modal">
       <button class="fechar">X</button>
-      <h3>Estacionamento 1: </br> Oficiais</h3>
+      <h3>Estacionamento 4: </br> Oficiais</h3>
     </div>
   </div>
 
+  <div id="modal-est5oficiais" class="modal-container">
+    <div class="modal">
+      <button class="fechar">X</button>
+      <h3>Estacionamento 5: </br> Oficiais</h3>
+    </div>
+  </div>
+
+  <div id="modal-est7func" class="modal-container">
+    <div class="modal">
+      <button class="fechar">X</button>
+      <h3>Estacionamento 7: </br> Funcionários Cadastrados</h3>
+    </div>
+  </div>
 
   <script>
     /*
@@ -2614,35 +2642,39 @@
     function iniciaModal(modalID) {
       if (localStorage.fechaModal !== modalID) {
 
-        const modal = document.getElementById(modalID);
+      const modal = document.getElementById(modalID);
 
-        if (modal) {
-          modal.classList.add('mostrar');
-          modal.addEventListener('click', (evento) => {
-            if (evento.target.id == modalID || evento.target.className == 'fechar') {
-              modal.classList.remove('mostrar'); // remove a classe mostrar quando é clicado na classe fechar
-              localStorage.fechaModal = modalID; // Se o usuário clicar em fechar o modal, será registrado na máquina do usuário para não abrir novamente
-            }
-          });
-        }
+      if (modal) {
+        modal.classList.add('mostrar');
+        modal.addEventListener('click', (evento) => {
+          if (evento.target.id == modalID || evento.target.className == 'fechar') {
+            modal.classList.remove('mostrar'); // remove a classe mostrar quando é clicado na classe fechar
+            localStorage.fechaModal = modalID; // Se o usuário clicar em fechar o modal, será registrado na máquina do usuário para não abrir novamente
+          }
+        });
       }
     }
 
-    const alasul = document.querySelector('#alasul');
-    const alanorte = document.querySelector('#alanorte');
-    const defesacivil = document.querySelector('#defesacivil');
-    const manutencao = document.querySelector('#manutencao');
-    const escolinha = document.querySelector('#escolinha');
-    const rampa = document.querySelector('#rampa');
-    const orquestra = document.querySelector('#orquestra');
-    const prediocaff = document.querySelector('#prediocaff');
-    const estacvisit1 = document.querySelector('#estacvisit1');
-    const estvistext = document.querySelector('#estvistext');
-    const estacesquerda = document.querySelector('#estacesquerda');
-    const estacdireita = document.querySelector('#estacdireita');
-    const estaccima = document.querySelector('#estaccima');
-    const oficiais1 = document.querySelector('#oficiais1');
-    const teste = document.querySelector('#sectext'); // mostrar informações quando passar o mouse no texto da imagem
+    const alasul = document.querySelector('#alasultext');
+    const alanorte = document.querySelector('#alanortetext');
+
+    const manutencao = document.querySelector('#manutencaotext');
+    const escolinha = document.querySelector('#escolacafftext');
+    const rampa = document.querySelector('#rampatext');
+
+    const secretariaeducacao = document.querySelector('#sectext');
+    const orquestra = document.querySelector('#orquestratext');
+
+    const defesacivil = document.querySelector('#defesaciviltext');
+    const prediocaff = document.querySelector('#prediocafftext');
+
+    const est1visit = document.querySelector('#est1vistext');
+    const est3func = document.querySelector('#est3functext');
+    const est6func = document.querySelector('#est6functext');
+    const est2func = document.querySelector('#est2functext');
+    const est4oficiais = document.querySelector('#est4ofictext');
+    const est5oficiais = document.querySelector('#est5ofictext');
+    const est7func = document.querySelector('#est7functext');
 
     alasul.addEventListener('mousemove', () => iniciaModal('modal-alasul')); // adiciona um evento como passar o mouse
     alanorte.addEventListener('mousemove', () => iniciaModal('modal-alanorte'));
@@ -2657,11 +2689,13 @@
     defesacivil.addEventListener('mousemove', () => iniciaModal('modal-defesacivil'));
     prediocaff.addEventListener('mousemove', () => iniciaModal('modal-prediocaff'));
 
-    estacvisit1.addEventListener('mousemove', () => iniciaModal('modal-estvist1'));
-    estacesquerda.addEventListener('mousemove', () => iniciaModal("modal-estacesquerda"));
-    estacdireita.addEventListener('mousemove', () => iniciaModal("modal-estacdireita"));
-    estaccima.addEventListener('mousemove', () => iniciaModal("modal-estaccima"));
-    oficiais1.addEventListener('mousemove', () => iniciaModal("modal-oficiais1"));
+    est1visit.addEventListener('mousemove', () => iniciaModal('modal-estvist1'));
+    est3func.addEventListener('mousemove', () => iniciaModal("modal-estacesquerda"));
+    est6func.addEventListener('mousemove', () => iniciaModal("modal-estacdireita"));
+    est2func.addEventListener('mousemove', () => iniciaModal("modal-estaccima"));
+    est4oficiais.addEventListener('mousemove', () => iniciaModal("modal-est4oficiais"));
+    est5oficiais.addEventListener('mousemove', () => iniciaModal("modal-est5oficiais"));
+    est7func.addEventListener('mousemove', () => iniciaModal("modal-est7func"));
   </script>
 </body>
 

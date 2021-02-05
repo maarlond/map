@@ -1,9 +1,8 @@
-/*.mapa {
+.mapa {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to left top, #e2d73e, #d31a13, #179017);
-}   */
+}   
 
 .mapa svg #escolinha polygon:hover {
     stroke:#3e00f6;
